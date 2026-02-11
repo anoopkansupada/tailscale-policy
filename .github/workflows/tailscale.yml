@@ -19,4 +19,5 @@ jobs:
         uses: tailscale/gitops-acl-action@v1
         with:
           api-key: ${{ secrets.TS_API_KEY }}
+          policy-file: policy.hujson
           tailnet: ${{ secrets.TS_TAILNET }}
