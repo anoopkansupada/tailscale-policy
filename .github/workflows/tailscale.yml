@@ -17,6 +17,7 @@ jobs:
       - name: Deploy ACL to Tailscale
         id: tailscale-acl
         uses: tailscale/gitops-acl-action@v1
+          action: apply
         with:
           api-key: ${{ secrets.TS_API_KEY }}
           policy-file: policy.hujson
