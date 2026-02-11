@@ -1,6 +1,4 @@
-// Testing GitHub Actions GitOps workflow
-// Example/default ACLs for unrestricted connections.
-{
+// Testing fixed GitHub Actions workflow with policy-file parameter{
 	// Declare static groups of users. Use autogroups for all users or users with a specific role.
 	// "groups": {
 	//  	"group:example": ["alice@example.com", "bob@example.com"],
